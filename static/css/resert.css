@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+html{margin: 0px;padding: 0px;}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	margin: 0px auto;
+	min-width: 320px;
+	max-width: 780px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+@media screen and (max-width: 360px){
+	html,body{
+		font-size: 12px;
+	}
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+ul,li{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+img{
+	border: none;
+	display: block;
+}
+a{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+a:active{
+	noOutline:expression_r(this.onFocus=this.blur());
+}
+a:hover{
+	text-decoration: none;
+	color: #333;
+}
+a:focus {
+	outline:none;
+	-moz-outline:none;
+	text-decoration: none;
+}
+em,i{
+	font-style: normal;
+}
+input,button,select{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+.ui-loader-default{ display:none}
+
+.ui-mobile-viewport{ border:none;}
+.ui-page {padding: 0; margin: 0; outline: 0} 
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0px;
+	border-radius: 5px;
+}
+.clearfloat {
+	zoom: 1;
+}
+.lineblock{
+	display: inline-block;
+	vertical-align: middle;
+	*vertical-align: auto;
+	*zoom: 1;
+	*display: inline;
+}
