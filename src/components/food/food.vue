@@ -46,7 +46,6 @@
   import Vue from 'vue';
   import cartcontrol from 'components/cartcontrol/cartcontrol';
   import split from 'components/split/split';
-  import ratingselect from 'components/ratingselect/ratingselect';
   export default {
     props: {
       food: {
